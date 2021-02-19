@@ -22,3 +22,14 @@
 ( ) . % + - * ? [ ] ^ $
 ```
 
+### gsub
+
+http://www.lua.org/manual/5.3/manual.html#pdf-string.gsub
+
+```txt
+The character % works as an escape character: any sequence in repl of the form
+%d, with d between 1 and 9, stands for the value of the d-th captured substring.
+The sequence %0 stands for the whole match. The sequence %% stands for a single
+%.
+```
+
